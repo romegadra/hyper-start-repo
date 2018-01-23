@@ -6,7 +6,14 @@ package hyperion.com.training.basic;
 public class TrainingBasic {
 
     public static void main(String...args) {
-        System.out.println("Start here!!");
+    	TrainingBasic tb = new TrainingBasic();
+    	tb.testTerminal();
+        System.out.println(tb.testTerminal());
+    }
+    
+    private String testTerminal() {
+    	String s = "HolaMundo";
+    	return s;
     }
 
 }
