@@ -5,6 +5,10 @@ package hyperion.com.training.basic;
  */
 public class TrainingBasic {
 
+	public void testRo() {
+        System.out.println("Hey Ro!");
+    }
+	
     public static void main(String...args) {
         System.out.println("Start here!!");
 
