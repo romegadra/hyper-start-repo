@@ -7,6 +7,12 @@ public class TrainingBasic {
 
     public static void main(String...args) {
         System.out.println("Start here!!");
+
+        
     }
 
+    private String modLuis() {
+        String s = "Hola";
+        return s;
+    }
 }
