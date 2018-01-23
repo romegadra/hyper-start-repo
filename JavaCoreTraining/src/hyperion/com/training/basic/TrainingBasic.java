@@ -5,6 +5,10 @@ package hyperion.com.training.basic;
  */
 public class TrainingBasic {
 
+	public void testRo() {
+        System.out.println("Hey Ro!");
+    }
+	
     public static void main(String...args) {
     	TrainingBasic tb = new TrainingBasic();
     	tb.testTerminal();
@@ -13,7 +17,12 @@ public class TrainingBasic {
     
     private String testTerminal() {
     	String s = "HolaMundo";
-    	return s;
+        System.out.println("Start here!!");
+        return s;
     }
 
+    private String modLuis() {
+        String s = "Hola";
+        return s;
+    }
 }
