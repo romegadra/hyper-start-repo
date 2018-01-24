@@ -5,8 +5,8 @@ package hyperion.com.training.basic;
  */
 public class TrainingBasic {
 
-	public void testRo() {
-        System.out.println("Hey Ro!");
+	public String testRo() {
+        return "Hey Ro!";
     }
 	
     public static void main(String...args) {
@@ -30,5 +30,9 @@ public class TrainingBasic {
     private String modLuis() {
         String s = "Hola";
         return s;
+    }
+    private String nameDaniel()
+    {
+    	return "Daniel Nev";
     }
 }
