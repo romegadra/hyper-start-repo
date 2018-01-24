@@ -5,8 +5,8 @@ package hyperion.com.training.basic;
  */
 public class TrainingBasic {
 
-	public void testRo() {
-        System.out.println("Hey Ro!");
+	public String testRo() {
+        return "Hey Ro!";
     }
 	
     public static void main(String...args) {
