@@ -11,10 +11,12 @@ public class TrainingBasic {
 	
     public static void main(String...args) {
         System.out.println("Start here!!");
-
         
     }
-
+    private static String DarR(){
+    	/*Esto es un comentario*/
+    	return "Hola mundo ";
+    }
     private String modLuis() {
         String s = "Hola";
         return s;
