@@ -25,4 +25,8 @@ public class TrainingBasic {
         String s = "Hola";
         return s;
     }
+    private String nameDaniel()
+    {
+    	return "Daniel Nev";
+    }
 }
