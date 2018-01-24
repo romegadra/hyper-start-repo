@@ -8,18 +8,18 @@ public class TrainingBasic {
 	public void testRo() {
         System.out.println("Hey Ro!");
     }
-	
+
     public static void main(String...args) {
     	TrainingBasic tb = new TrainingBasic();
     	tb.testTerminal();
         System.out.println(tb.testTerminal());
     }
-    
+
     private String testTerminal() {
     	String s = "HolaMundo";
         System.out.println("Start here!!");
 
-        
+
 
         return s;
     }
