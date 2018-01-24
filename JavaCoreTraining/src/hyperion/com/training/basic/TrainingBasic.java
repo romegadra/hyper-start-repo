@@ -35,4 +35,8 @@ public class TrainingBasic {
     {
     	return "Daniel Nev";
     }
+    
+    private String testLuisOtro() { 
+    	return "Aloha!";
+    }
 }
