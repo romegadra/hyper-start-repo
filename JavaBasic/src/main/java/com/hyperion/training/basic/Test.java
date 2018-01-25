@@ -1,4 +1,4 @@
-package main.com.hyperion.training.basic;
+package com.hyperion.training.basic;
 
 public class Test {
 	
@@ -17,6 +17,7 @@ public class Test {
 	}
 	
 	public void testReferences() {
+		
 		BasicsObjects bo = new BasicsObjects();
 		bo.name = "John";
 		bo.lastName = "Doe";
@@ -29,8 +30,9 @@ public class Test {
 	}
 	
 	public static void main(String...args) {
+		
 		Test t  = new Test();
 		//t.testStatics();
-		t.testReferences();
+		//t.testReferences();
 	}
 }
