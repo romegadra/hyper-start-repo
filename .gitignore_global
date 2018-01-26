@@ -11,6 +11,10 @@
 #########
 target/
 
+#intellij
+.DS_Store
+.idea
+
 # Eclipse #  
 ###########
 *.classpath
