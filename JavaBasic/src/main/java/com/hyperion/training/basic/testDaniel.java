@@ -5,7 +5,7 @@ public class testDaniel
 	
 	public static void main(String[] args) 
 	{
-		new testDaniel().nameGit();
+		new testDaniel().nameGit("Daniel Nevarez");
 			
 	}
 
