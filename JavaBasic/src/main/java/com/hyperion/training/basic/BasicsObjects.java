@@ -7,7 +7,7 @@ public class BasicsObjects {
 	
 	public BasicsObjects() {
 		name = "John";
-		lastName = "Doe";
+		lastName = "Doe1";
 	}
 	
 	public void print() {
