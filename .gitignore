@@ -9,6 +9,7 @@
 .externalToolBuilders
 
 # Build targets
+bin/
 target/
 reports/
 
