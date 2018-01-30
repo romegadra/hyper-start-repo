@@ -5,4 +5,7 @@ public class Guest extends User{
 		public String guestName;
 		public String guestSomething;
 		
+		public void metodo() {
+			
+		}
 }
