@@ -4,7 +4,7 @@ public class User {
 	
 	public String name;
 	public String lastName;
-	public int id;
+	public int3 id;
 	
 	public String devolverNombre() {	
 		return name;
