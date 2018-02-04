@@ -2,6 +2,9 @@ package com.hyperion.training.basic;
 
 public class Test {
 	
+	public int id = 12;
+	public String name = "Default";
+	
 	public void testStatics() {
 		BasicsObjects bo = new BasicsObjects();
 		bo.name = "John";
@@ -31,8 +34,9 @@ public class Test {
 	
 	public static void main(String...args) {
 		
-		Test t  = new Test();
-		//t.testStatics();
+		Test t = new Test();
+
+		t.testStatics();
 		//t.testReferences();
 	}
 }
