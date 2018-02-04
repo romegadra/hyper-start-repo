@@ -7,7 +7,7 @@ public class Test {
 		User user = new Admin();
 		System.out.println(">>>" + user.calcularRol());
 		Admin admin = new Admin();
-		admin.name = "Debora";
+		admin.name = "Debora!";
 		admin.printName();
 		System.out.println(admin.calcularRol());
 		Support support = new Support();
