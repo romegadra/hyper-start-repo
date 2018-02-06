@@ -1,56 +1,42 @@
-####################################################
-# Global .gitignore Flle
-# Reference:  http://help.github.com/ignore-files/
-# Save this in a file: ~/.gitignore_global
-# Then at the command line (you will see more info if a repo is in the current folder):
-# git config --global core.excludesfile ~/.gitignore_global
-# git config --list
-#####################
-
-# Maven #
-#########
-target/
-
-#intellij
-.DS_Store
-.idea
-
-# Eclipse #  
-###########
-*.classpath
+# Eclipse
+.metadata
 .settings/
+.classpath
+.project
+.springBeans
+.recommenders/
+.apt_generated/
+.externalToolBuilders
 
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# Build targets
+bin/
+target/
+reports/
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# IntelliJ
+.idea/
+**/*.iml
+**/.idea/
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+# JRebel
+rebel.xml
+rebel-remote.xml
 
-# OS generated files #
-######################
-.DS_Store*
-ehthumbs.db
-Icon?
-Thumbs.db
+# Java annotation processor (APT)
+.factorypath
+
+# Node
+npm-debug.log
+node/
+node_modules/
+logs/
+
+# Grunt usually compiles files inside this directory
+dist/
+
+# Mac
+.DS_Store
+
+# NetBeans
+nb-configuration.xml
+*.exe.stackdump
