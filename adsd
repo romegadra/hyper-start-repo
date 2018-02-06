@@ -1,0 +1,145 @@
+[33mcommit bf7a66ff3b8f2a5533b8fea8a9843c925e5c94ba[m[33m ([m[1;36mHEAD -> [m[1;32mdevelopment[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Fri Jan 26 16:52:38 2018 -0600
+
+    Adding gitignore
+
+[33mcommit 00309622cdc0803349e0eb6160ca7d1439e499cb[m
+Merge: e209754 8163944
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Fri Jan 26 16:50:07 2018 -0600
+
+    Merge branch 'Staging'
+
+[33mcommit 816394404e6c952f23132456ffb46e03045eb83b[m
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Fri Jan 26 16:39:39 2018 -0600
+
+    Adding git ignore global
+
+[33mcommit 53562dd8ddd20d90b2a9089a5b7db3623289052d[m
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Thu Jan 25 15:46:23 2018 -0600
+
+    Adding examples
+
+[33mcommit e209754d6891d7b517e110d2a7e96a1df565db15[m
+Author: hirampadilla <35712434+hirampadilla@users.noreply.github.com>
+Date:   Tue Jan 23 23:31:12 2018 -0600
+
+    Add files via upload
+
+[33mcommit 2700ffc47490f4ba6fa78d3d77ea932963e47516[m
+Merge: 6d29feb ad94cba
+Author: DESKTOP-8BPCFNC\luisdixz <luismainutd@gmail.com>
+Date:   Tue Jan 23 19:03:48 2018 -0600
+
+    creo que ahora si se podra c:
+
+[33mcommit 6d29febeae595710fbc04216eaffdfa55e48660d[m
+Author: DESKTOP-8BPCFNC\luisdixz <luismainutd@gmail.com>
+Date:   Tue Jan 23 19:00:53 2018 -0600
+
+    a ver si funciona :c
+
+[33mcommit ad94cba33c151675b3f2d750ff9f3f8c15c2d381[m
+Author: Hiram Padilla <hirampadillautd@gmail.com>
+Date:   Tue Jan 23 18:58:04 2018 -0600
+
+    soy hiram
+
+[33mcommit c2bbfd519ff3fd08cb1af312289bc139e2c8fa4c[m
+Merge: 194eb97 0a2ffa0
+Author: DESKTOP-8BPCFNC\luisdixz <luismainutd@gmail.com>
+Date:   Tue Jan 23 18:51:01 2018 -0600
+
+    Merge branch 'Staging' of https://github.com/romegadra/hyper-start-repo into Staging
+
+[33mcommit 0a2ffa0f156a2d19e028f76067b892626d268b54[m
+Merge: ed28387 1a16098
+Author: DanielNevarez <daaniel31@gmail.com>
+Date:   Tue Jan 23 18:35:16 2018 -0600
+
+    Merge branch 'Staging' of https://github.com/romegadra/hyper-start-repo into Staging
+
+[33mcommit ed283876f0098a9d48930dc6f524d7022cb7285f[m
+Author: DanielNevarez <daaniel31@gmail.com>
+Date:   Tue Jan 23 18:33:52 2018 -0600
+
+    Que rollo(8
+
+[33mcommit 1a16098a1a8b4b574c6ab1683f6a345f4cdef271[m[33m ([m[1;31morigin/cleaningAMess[m[33m)[m
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Tue Jan 23 18:28:27 2018 -0600
+
+    Adding method that returns my name
+
+[33mcommit 194eb97eb1aba996067e94673ac7cede1cbab3df[m[33m ([m[1;31morigin/makingAmess[m[33m, [m[1;31morigin/hiramBranch[m[33m, [m[1;31morigin/flyingFish[m[33m, [m[1;32mflyingFish[m[33m)[m
+Merge: 1bb2044 4c9b6c7
+Author: Dariuzcm <dariuzcm@hotmail.com>
+Date:   Tue Jan 23 18:18:01 2018 -0600
+
+    esto es un commit
+
+[33mcommit 1bb20443d1a551189d015ccf637a2d17ff3945d2[m
+Author: Dariuzcm <dariuzcm@hotmail.com>
+Date:   Tue Jan 23 18:16:17 2018 -0600
+
+    esto es un commit
+
+[33mcommit 800bc7b7ed9b6fcbb717f2db3918798cb81662af[m
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Tue Jan 23 17:26:02 2018 -0600
+
+    Adding changes from master
+
+[33mcommit c2d8cadc4c49b686c2c49012147d6a8f5ab85f17[m
+Merge: 946d620 4c9b6c7
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Tue Jan 23 17:25:29 2018 -0600
+
+    Merge branch 'master' into Staging
+
+[33mcommit 946d6204d2df19868d39e2b2b47eead9befb1065[m
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Tue Jan 23 15:57:36 2018 -0600
+
+    Adding java basic project
+
+[33mcommit 4c9b6c7ba805c7dfd3bdcb7cbe913737c7d3009c[m
+Merge: ecf52c5 e2d005f
+Author: Diego Villarreal <diegovillanev@hotmail.com>
+Date:   Mon Jan 22 19:11:01 2018 -0600
+
+    Ya pude 2
+
+[33mcommit ecf52c5eac05d8cc0f2df5e78756e5f60c0f444f[m
+Author: Diego Villarreal <diegovillanev@hotmail.com>
+Date:   Mon Jan 22 19:09:01 2018 -0600
+
+    Ya pude
+
+[33mcommit e2d005f56989f58b933357c982e702f215157f66[m
+Merge: 6f7c7d5 ed6d8ac
+Author: DESKTOP-8BPCFNC\luisdixz <luismainutd@gmail.com>
+Date:   Mon Jan 22 19:04:33 2018 -0600
+
+    Merge branch 'master' of https://github.com/romegadra/hyper-start-repo
+
+[33mcommit 6f7c7d5a2f2039fbf689bac8aad69365acd0c5d6[m
+Author: DESKTOP-8BPCFNC\luisdixz <luismainutd@gmail.com>
+Date:   Mon Jan 22 19:04:25 2018 -0600
+
+    Metodo nuevo
+
+[33mcommit ed6d8ac72d3298001c19ea5ec4ffbf0c28eedf55[m
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Mon Jan 22 18:57:45 2018 -0600
+
+    Modifique metodo con mi nombre
+
+[33mcommit c30b709d4e3dba1443de35ad2204930ca73a1386[m
+Author: romegadra <rodrigo.medina.ramg@gmail.com>
+Date:   Mon Jan 22 11:50:47 2018 -0600
+
+    Adding project structure
