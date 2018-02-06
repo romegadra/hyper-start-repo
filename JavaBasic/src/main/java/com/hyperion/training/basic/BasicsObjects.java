@@ -6,6 +6,7 @@ public class BasicsObjects {
 	public static String lastName;
 	
 	public BasicsObjects() {
+		
 		name = "John";
 		lastName = "Doe";
 	}
