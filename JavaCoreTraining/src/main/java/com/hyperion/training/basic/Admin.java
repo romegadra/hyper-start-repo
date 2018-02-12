@@ -16,7 +16,7 @@ public class Admin extends User {
 
 	public String generarUserName() {
 		generarId(2);
-		return superUser+= name + superUser;
+		return superUser/*+= name + superUser*/;
 	}
 
 }
