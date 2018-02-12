@@ -24,6 +24,9 @@ public class Operations {
 	 	 && And
 	 	 || Or
 	 	 ! negacion
+	 	 
+	 	 Objetos
+	 	 instanceof
 		 */
 		int a = ((3+2) * 2 )*3;
 		//((3+2) * 2 ) 10
