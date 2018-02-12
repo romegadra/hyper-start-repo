@@ -3,6 +3,8 @@ package com.hyperion.training.basic;
 public class Admin extends User {
 
 	public String superUser = "adminSuper";
+	public String dir;
+	public int edad;
 	
 	public void getSuperAccess() {
 		
@@ -16,7 +18,7 @@ public class Admin extends User {
 
 	public String generarUserName() {
 		generarId(2);
-		return superUser+= name + superUser;
+		return superUser+= getName() + superUser;
 	}
 
 }
