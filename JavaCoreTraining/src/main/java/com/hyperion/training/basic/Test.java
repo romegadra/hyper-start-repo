@@ -6,38 +6,26 @@ public class Test {
 		/*System.out.println(Regular.getCounter());
 		Regular.addCounter();
 		System.out.println(Regular.getCounter());
-		*/
-		Admin admin1 = new Admin();
-		admin1.setName("Cesar");
-		admin1.dir ="Casa de Cesar";
-		admin1.edad =28;
-		Admin admin2 = new Admin();
-		admin2.setName("Saron");
-		admin2.dir ="Casa de Cesar";
-		admin2.edad =26;
-		Admin admin3 = new Admin();
-		admin3.setName("Debora");
-		admin3.dir ="Casa de Vania";
-		admin3.edad =5;
-		System.out.println(admin1.getName());
-		System.out.println(admin1.dir);
-		System.out.println(admin1.edad);
-		System.out.println(admin2.getName());
-		System.out.println(admin2.dir);
-		System.out.println(admin2.edad);
-		System.out.println(admin3.getName());
-		System.out.println(admin3.dir);
-		System.out.println(admin3.edad);
-		/*Admin admin2 = new Admin();
+		*/	
+		Movible m = new Balon();
+		System.out.println(m.moverse());
+		System.out.println(m.calcularCurva(3, 4));
+		Admin admin = new Admin();
+		if (admin instanceof User) {
+			System.out.println("true");
+		} else{
+			System.out.println("false");
+		}
+		if (admin instanceof Object) {
+			System.out.println("true");
+		} else {
+			System.out.println("false");
+		}
 		
-		admin.setName("a");
-		admin.generarId(4);
-		 
-		 Support support = new Support();
-		 support.generarId(4);
-		 support.generarUserName();
-		 
-		 admin.printSuperUser();
-		 support.printSupportId();*/
+		
+		
+		
+		
+		
 	}
 }
