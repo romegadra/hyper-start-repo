@@ -50,15 +50,22 @@ public class Test {
 		System.out.println(admin3.dir);
 		System.out.println(admin3.edad);
 		/*Admin admin2 = new Admin();
+		*/	
+		Movible m = new Balon();
+		System.out.println(m.moverse());
+		System.out.println(m.calcularCurva(3, 4));
+		Admin admin = new Admin();
+		if (admin instanceof User) {
+			System.out.println("true");
+		} else{
+			System.out.println("false");
+		}
+		if (admin instanceof Object) {
+			System.out.println("true");
+		} else {
+			System.out.println("false");
+		}
 		
-		admin.setName("a");
-		admin.generarId(4);
-		 
-		 Support support = new Support();
-		 support.generarId(4);
-		 support.generarUserName();
-		 
-		 admin.printSuperUser();
-		 support.printSupportId();*/
+		
 	}
 }

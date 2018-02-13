@@ -32,4 +32,8 @@ public class Balon implements Movible {
 		return (getDataFromWebService()*x)*y;
 	}
 	
+
+
+
+
 }
