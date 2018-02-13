@@ -6,6 +6,9 @@ public abstract class User {
 	private String lastName = "Carrasco";
 	private int id = 3;
 	
+	public User() {
+		super();
+	}
 	public void setName(String name) {
 		System.out.println("variable local set name" + name);
 		this.name = name;
