@@ -7,6 +7,27 @@ public class Test {
 		Regular.addCounter();
 		System.out.println(Regular.getCounter());
 		*/
+		
+		Movible m = new Balon();
+		System.out.println(m.moverse());
+		//Esferica e = new Balon();
+		System.out.println(m.calcularCurva(5, 2));
+		
+		
+		/*Admin admin = new Admin();
+		
+		if(admin instanceof User) {
+			System.out.println("true");
+		} else {
+			System.out.println("false");
+		}
+		if(admin instanceof Object) {
+			System.out.println("true");
+		} else {
+			System.out.println("false");
+		}*/
+		
+		
 		Admin admin1 = new Admin();
 		admin1.setName("Cesar");
 		admin1.dir ="Casa de Cesar";
