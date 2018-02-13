@@ -10,7 +10,7 @@ public class Test {
 		/*System.out.println(Regular.getCounter());
 		Regular.addCounter();
 		System.out.println(Regular.getCounter());
-		*/
+		
 		Admin admin1 = new Admin();
 		admin1.setName("Cesar");
 		admin1.dir ="Casa de Cesar";
@@ -32,7 +32,7 @@ public class Test {
 		System.out.println(admin3.getName());
 		System.out.println(admin3.dir);
 		System.out.println(admin3.edad);
-		/*Admin admin2 = new Admin();
+		Admin admin2 = new Admin();
 		
 		admin.setName("a");
 		admin.generarId(4);
@@ -57,5 +57,11 @@ public class Test {
 		 System.out.println(phone1.getBrand());
 
 		 support.printSupportId();*/
+		
+		Movible m = new Balon();
+		System.out.println(m.moverse());
+		
+		//crear interfaces y clase. implementarlas.
+	
 	}
 }
