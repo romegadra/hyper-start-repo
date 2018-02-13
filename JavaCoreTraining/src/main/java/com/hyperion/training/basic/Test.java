@@ -7,9 +7,11 @@ public class Test {
 		/*
 		Admin admin = new Admin();
 
-		/*System.out.println(Regular.getCounter());
+		System.out.println(Regular.getCounter());
 		Regular.addCounter();
 		System.out.println(Regular.getCounter());
+
+		
 		
 		Admin admin1 = new Admin();
 		admin1.setName("Cesar");
@@ -44,8 +46,7 @@ public class Test {
 		 admin.printSuperUser();
 
 		 support.printSupportId();
-		 */
-		 /*
+		
 		 Cellphones phone1 = new Cellphones();
 		 phone1.setId(1);
 		 phone1.setBrand("Samsung");
@@ -57,11 +58,24 @@ public class Test {
 		 System.out.println(phone1.getBrand());
 
 		 support.printSupportId();*/
+
 		
+		//TAREA crear interfaces y clase. implementarlas.
+	
 		Movible m = new Balon();
 		System.out.println(m.moverse());
+		System.out.println(m.calcularCurva(3, 4));
+		Admin admin = new Admin();
+		if (admin instanceof User) {
+			System.out.println("true");
+		} else{
+			System.out.println("false");
+		}
+		if (admin instanceof Object) {
+			System.out.println("true");
+		} else {
+			System.out.println("false");
+		}
 		
-		//crear interfaces y clase. implementarlas.
-	
 	}
 }

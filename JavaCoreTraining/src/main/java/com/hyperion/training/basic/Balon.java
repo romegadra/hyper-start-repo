@@ -1,5 +1,6 @@
 package com.hyperion.training.basic;
 
+
 public class Balon implements Movible, Esferica{
 	
 	
@@ -11,14 +12,20 @@ public class Balon implements Movible, Esferica{
 		return mensaje + " again!";
 	}
 
-	public void rebotar() {}
+	private int getDataFromWebService() {
+		return 8*8;
+	}
 	
-	public String moverse(){	
+	public void rebotar() {	
+	}
+
+	public String moverse() {
 		return calcularRebote();
 	}
 
-	
 	public int calcularCurva(int x, int y) {
-		return 0;
+		return (getDataFromWebService()*x)*y;
 	}
+
+
 }

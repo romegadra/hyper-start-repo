@@ -1,8 +1,8 @@
 package com.hyperion.training.basic;
 
-public interface Movible {
 
-	//atributos siempre son finales en las interfaces
+public interface Movible extends Esferica {
 	
-	public abstract String moverse();
+	public String moverse();
+
 }

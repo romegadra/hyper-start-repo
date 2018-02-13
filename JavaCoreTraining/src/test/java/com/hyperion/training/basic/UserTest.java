@@ -12,6 +12,7 @@ public class UserTest extends TestCase{
 	}
 	public void testUser() {
 		admin.generarId(i);
+		assertTrue("Se genero el id", null!=admin.generarUserName());
 		assertNotNull(admin.generarUserName());
 	}
 }
