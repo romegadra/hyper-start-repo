@@ -73,20 +73,7 @@ public class Loops {
 			//loops.printNo();
 		}
 		
-		switch(opt) {
-			case "A": loops.printYes(); break;
-			case "B": loops.printMaybe(); break;
-			case "C": loops.printNo(); break;
-			default: System.out.println("Default case"); break;
-		}
-		
-		switch(count) {
-			case 1: loops.printYes(); break;
-			case 2: loops.printMaybe(); break;
-			case 4: loops.printNo(); break;
-		}
-		
-		
+
 	}
 
 }
