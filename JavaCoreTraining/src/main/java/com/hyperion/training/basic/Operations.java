@@ -21,9 +21,9 @@ public class Operations {
 	 	 != comparacion (diferente de)
 	 	 
 	 	 Operadores Logicos:
-	 	 && And
-	 	 || Or
-	 	 ! negacion
+	 	 && And &
+	 	 || Or |
+	 	 ! negacion !
 	 	 
 	 	 Objetos
 	 	 instanceof

@@ -73,7 +73,15 @@ public class Loops {
 			//loops.printNo();
 		}
 		
+<<<<<<< HEAD
 
+=======
+		
+		
+		
+		
+		
+>>>>>>> development
 	}
 
 }
