@@ -3,6 +3,7 @@ package com.hyperion.training.basic.abstractejemplo;
 public class TestAnimal {
 
 	public static void main(String...args) {
+		
 		Perro perro = new Perro();
 		System.out.println(perro.run());
 		System.out.println(perro.run(30));
