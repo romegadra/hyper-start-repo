@@ -1,6 +1,6 @@
 package com.hyperion.training.basic.abstractejemplo;
 
-public abstract class Animal {
+public abstract class Animal implements AnimalInt{
 	
 	public String run() {
 		return "corre generico";
