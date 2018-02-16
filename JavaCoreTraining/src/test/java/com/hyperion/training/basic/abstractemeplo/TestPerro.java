@@ -9,7 +9,7 @@ public class TestPerro extends TestCase {
 	Perro perro;
 	
 	public void setUp() {
-		//perro = new Perro();
+		perro = new Perro();
 	}
 	
 	public void testPerroMetodos() {
