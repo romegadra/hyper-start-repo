@@ -20,13 +20,11 @@ public class Balon implements Movible {
 		return 8*8;
 	}
 
-	@Override
 	public String moverse() {
 		// TODO Auto-generated method stub
 		return calcularRebote();
 	}
-
-	@Override
+	
 	public int calcularCurva(int x, int y) {
 		// TODO Auto-generated method stub
 		return (getDataFromWebService()*x)*y;

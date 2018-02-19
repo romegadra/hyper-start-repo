@@ -51,9 +51,9 @@ public class Test {
 		System.out.println(admin3.edad);
 		/*Admin admin2 = new Admin();
 		*/	
-		Movible m = new Balon();
-		System.out.println(m.moverse());
-		System.out.println(m.calcularCurva(3, 4));
+		Movible m0 = new Balon();
+		System.out.println(m0.moverse());
+		System.out.println(m0.calcularCurva(3, 4));
 		Admin admin = new Admin();
 		if (admin instanceof User) {
 			System.out.println("true");

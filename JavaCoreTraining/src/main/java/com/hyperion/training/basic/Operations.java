@@ -17,6 +17,7 @@ public class Operations {
 	 	 >= mayor o igual que
 	 	 = asignacion
 	 	 
+	 	 
 	 	 == comparacion (igual a)
 	 	 != comparacion (diferente de)
 	 	 
