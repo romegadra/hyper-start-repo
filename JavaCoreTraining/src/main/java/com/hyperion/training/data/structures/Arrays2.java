@@ -19,26 +19,7 @@ public class Arrays2 {
 		int index = Arrays.binarySearch(arr2, 5);
 		
 		System.out.println("index" + index);
-		int arr3[][] = {
-				  //y
-					{1}, //x1
-					{4,5,6},  //x2
-					{7,8,9}
-				};
-		int arr4[][] = new int[2][3];
-				
-		for(int x = 0; x < arr3.length; x++) {
-			for(int y = 0; y < arr3[x].length; y++) {
-				System.out.print(arr3[x][y]);
-			}System.out.println();
-		}
-		
-		for(int i : arr3[0]) {
-			System.out.println(">>" + i);
-		}
-		
-		
-		
+
 	}
 
 }
