@@ -1,0 +1,20 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteBase /calendar/resources/services/
+# map neat URL to internal URL
+RewriteRule getAllSchedules$   RestController.php?view=allSchedules [nc,qsa]
+RewriteRule getSchedulesByLabId/([0-9]+)$   RestController.php?view=getSchedulesByLabId&id=$1 [nc,qsa]
+
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-s
+#RewriteRule ^(.*)$ RestController.php?view=all [QSA,NC,L]
+
+#RewriteCond %{REQUEST_FILENAME} -d
+#RewriteRule ^(.*)$ RestController.php [QSA,NC,L]
+
+#RewriteCond %{REQUEST_FILENAME} -s
+#RewriteRule ^(.*)$ RestController.php [QSA,NC,L]	
+
+
