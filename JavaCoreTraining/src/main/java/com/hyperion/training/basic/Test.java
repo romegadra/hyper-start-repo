@@ -1,11 +1,15 @@
 package com.hyperion.training.basic;
 
+import java.util.Scanner;
+
 import com.hyperion.training.data.structures.Arrays2;
 
 public class Test {
 
 	public static void main(String...args) {
 		
+		Scanner scan = new Scanner(System.in);
+		System.out.println(scan.next());
 					// 0 1 2 3 
 		int array[] = {1,2,3,4};
 		int array2[] = new int[4];
