@@ -13,7 +13,7 @@ public class Test {
 		
 		BasicsObjects bo2 = new BasicsObjects();
 		bo2.name = "Juan";
-		bo2.lastName = "Sepa!!!!!!!";
+		bo2.lastName = "Sepa!!!!!!!!";
 		bo2.print();
 		
 		bo.print();
