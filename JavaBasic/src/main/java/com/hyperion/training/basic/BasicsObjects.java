@@ -12,8 +12,8 @@ public class BasicsObjects {
 	}
 	
 	public void print() {
-	    System.out.println("Nombre: " + name);
-	    System.out.println("Apellido: " + lastName);
+	    System.out.println("Name: " + name);
+	    System.out.println("LastName: " + lastName);
 	}
 
 	public static void main(String[] argumentos) {
