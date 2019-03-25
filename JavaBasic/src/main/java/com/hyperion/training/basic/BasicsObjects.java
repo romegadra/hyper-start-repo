@@ -13,7 +13,7 @@ public class BasicsObjects {
 	
 	public void print() {
 	    System.out.println("Name: " + name);
-	    System.out.println("LastName: " + lastName);
+	    System.out.println("LastName : " + lastName);
 	}
 
 	public static void main(String[] argumentos) {
